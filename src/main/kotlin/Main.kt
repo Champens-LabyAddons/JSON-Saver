@@ -4,6 +4,6 @@ import com.github.wildtooth.tooling.dummy.DummyObject
 import java.io.File
 
 fun main() {
-    val saveEncoder = SaveEncoder(DummyObject::class.java, File("saves"))
-    saveEncoder.encode()
+    val saveEncoder = SaveEncoder(listOf("LOL", "GOOFY", "Hmm"), File("saves"))
+    saveEncoder.encode("dummy.json")
 }
