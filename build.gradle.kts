@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.9.21"
+    `maven-publish`
 }
 
 group = "dk.fvtrademarket.tooling.json"
