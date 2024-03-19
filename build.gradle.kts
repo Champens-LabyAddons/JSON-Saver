@@ -3,8 +3,8 @@ plugins {
     `maven-publish`
 }
 
-group = "dk.fvtrademarket.tooling.json"
-version = "1.0-SNAPSHOT"
+group = "dk.fvtrademarket"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -20,4 +20,16 @@ tasks.test {
 }
 kotlin {
     jvmToolchain(17)
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "dk.fvtrademarket"
+            artifactId = "JSON-Saver"
+            version = "1.0.0"
+
+            from(components["java"])
+        }
+    }
 }
