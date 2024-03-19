@@ -1,4 +1,4 @@
-package dk.trademarket.tooling.json.master
+package dk.trademarket.tooling.json
 
 import java.io.File
 

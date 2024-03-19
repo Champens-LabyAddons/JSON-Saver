@@ -1,7 +1,7 @@
-package dk.trademarket.tooling.json.decoding
+package dk.trademarket.tooling.json.saver.decoding
 
 import com.google.gson.Gson
-import dk.trademarket.tooling.json.decoding.SaveDecoder
+import dk.trademarket.tooling.json.saver.decoding.SaveDecoder
 import java.io.File
 import java.lang.reflect.Type
 

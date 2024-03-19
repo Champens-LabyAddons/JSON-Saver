@@ -1,6 +1,6 @@
-package dk.trademarket.tooling.json.decoding
+package dk.trademarket.tooling.json.saver.decoding
 
-import dk.trademarket.tooling.json.master.SaveHandler
+import dk.trademarket.tooling.json.SaveHandler
 import java.io.File
 
 /**

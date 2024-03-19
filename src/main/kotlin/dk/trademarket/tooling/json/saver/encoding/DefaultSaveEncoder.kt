@@ -1,4 +1,4 @@
-package dk.trademarket.tooling.json.encoding
+package dk.trademarket.tooling.json.saver.encoding
 
 import com.google.gson.Gson
 import java.io.File
